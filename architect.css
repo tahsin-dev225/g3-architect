@@ -8,6 +8,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
 }
 nav ul{
     display: flex;
@@ -22,7 +23,7 @@ nav li a{
 }
 nav h3{
     font-size: 40px;
-    margin: 0;
+    margin:  0;
 }
 .banner-title{
     width:80%;
@@ -42,4 +43,61 @@ nav h3{
     background-color: #FF900E;
     color:white;
     border:0;
+    border-radius: 4px;
+}.banner img{
+    width:100%;
+    margin:30px 0;
+}
+.features{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+    margin: 40px 0;
+}
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:5px;
+    
+}
+.features-description{
+    width:30%;
+}
+.experience{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.ex-p{
+    padding:0 25px 0 0 ;
+}
+.ex-conteiner1{
+    width: 34%;
+    gap:20px;
+}
+.ex-box{
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: rgb(204, 219, 232) 0px 0px 5px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.love{
+    padding-left: 25px;
+    border-left: 5px solid #FF900E;
+    width: 40%;
+}
+.architect {
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+.year{
+    padding: 20px 40px;
+    background-color: #FF900E;
+    width:14%;
+    color:white;
+    position: absolute;
+    bottom:-60px;
+    left: -60px;
 }
