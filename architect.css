@@ -44,7 +44,9 @@ nav h3{
     color:white;
     border:0;
     border-radius: 4px;
-}.banner img{
+    cursor: pointer;
+}
+.banner img{
     width:100%;
     margin:30px 0;
 }
@@ -53,7 +55,7 @@ nav h3{
     align-items: center;
     justify-content: center;
     gap:40px;
-    margin: 40px 0;
+    margin: 100px 0;
 }
 .features-img{
     display: grid;
@@ -100,4 +102,63 @@ nav h3{
     position: absolute;
     bottom:-60px;
     left: -60px;
+}
+.fact{
+    width: 80%;
+    margin:80px auto;
+
+}
+.fact-title{
+    margin-bottom: 70px;
+}
+.fact-box h3,p{
+    margin:4px 0;
+}
+.fact-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fact-box{
+    text-align: center;
+    width: 20%;
+    padding:50px 0;
+    border: 2px solid #FF900E;
+    border-radius: 5px;
+}
+.sponsor-title h2,p{
+    text-align: center;
+}
+.sponsor-title p{
+    width: 40%;
+    margin: 0 auto;
+}
+.sponsor-box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    
+}
+.sponsor{
+    margin: 80px 0;
+}
+
+footer{
+    width: 80%;
+    background-color: #FFF4E7;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 0;
+    margin-bottom: 70px;
+}
+@media screen and (max-width:576px) {
+    header{
+        padding:0;
+    }
+    .sponsor-box{
+        flex-direction: column;
+    }
+    .nav{
+        flex-direction: column;
+    }
 }
