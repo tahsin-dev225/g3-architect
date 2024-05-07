@@ -9,6 +9,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
+    align-items: center;
 }
 nav ul{
     display: flex;
@@ -139,6 +140,9 @@ nav h3{
     margin: 50px auto;
     
 }
+.sponsor-box img{
+    filter:grayscale(1)
+}
 .sponsor{
     margin: 80px 0;
 }
@@ -153,12 +157,56 @@ footer{
 }
 @media screen and (max-width:576px) {
     header{
-        padding:0;
+        padding:50px 40px;
     }
     .sponsor-box{
         flex-direction: column;
     }
-    .nav{
+    nav{
         flex-direction: column;
+    }
+    .features{
+        flex-direction:column-reverse;
+        
+    }
+    .features-description{
+        width:95%;
+        text-align: center;
+    }
+    .features-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .experience{
+        flex-direction: column;
+    }
+    .ex-conteiner1{
+        width: 90%;
+    }
+    .fact-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr)
+    }
+    .fact-box{
+        width: 90%;
+    }
+    .fact{
+        width: 95%;
+    }
+    .sponsor-box{
+        gap:70px;
+    }
+    footer{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .architect img{
+        width:100%
+    }
+    .sponsor-title p{
+        width: 80%;
+    }
+    .year{
+        padding:10px 20px;
+        padding-right: 50px;
     }
 }
