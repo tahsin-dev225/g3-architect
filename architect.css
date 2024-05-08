@@ -138,7 +138,6 @@ nav h3{
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
-    
 }
 .sponsor-box img{
     filter:grayscale(1)
@@ -208,5 +207,63 @@ footer{
     .year{
         padding:10px 20px;
         padding-right: 50px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .experience{
+        flex-direction: column;
+    }
+    header{
+        padding:50px 60px;
+    }
+    .features-description{
+        width:35%
+    }
+    .experience{
+        flex-direction: column;
+    }
+    .ex-conteiner1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 90%;
+    }
+    .fact{
+        width: 90%;
+    }
+    .sponsor-box{
+        width: 95%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width:992px) and (max-width:1190px ) {
+    header{
+        padding:50px 80px;
+    }
+    .experience{
+        flex-direction: column;
+    }
+    .ex-conteiner1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 90%;
+    }
+    .features-description{
+        width:35%
+    }
+    .fact{
+        width: 90%;
+    }.sponsor-box{
+        width: 95%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:50px;
     }
 }
