@@ -156,7 +156,7 @@ footer{
 }
 @media screen and (max-width:576px) {
     header{
-        padding:50px 40px;
+        padding:20px 30px;
     }
     .sponsor-box{
         flex-direction: column;
@@ -207,6 +207,13 @@ footer{
     .year{
         padding:10px 20px;
         padding-right: 50px;
+    }
+    .banner-title{
+        width: 97%;
+        font-size:40px;
+    }
+    .features{
+        margin-top: 15px;;
     }
 }
 
